@@ -75,13 +75,6 @@ management:
       exposure:
         include: info,health,env,httptrace
       base-path: /admin
-  #  endpoint:
-  #    health:
-  #      show-details: always
-  #      show-components: always
-  ###################################################
-  # Disable all checks except for readiness
-  ###################################################
   health:
     defaults:
       enabled: false
